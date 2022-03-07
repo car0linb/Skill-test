@@ -9,6 +9,36 @@ body {
   margin: 0 auto;
 }
 
+header nav {
+  width: 100%;
+  height: 10vh;
+  background-color: #5474FD;
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+}
+header nav li {
+  float: right;
+  margin: 30px;
+}
+header nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-family: "Aleo", serif;
+  text-align: center;
+}
+header nav .logo {
+  float: left;
+  text-align: center;
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 26px;
+  margin: 30px;
+}
+
 .container {
   min-height: 100vh;
 }
@@ -95,36 +125,6 @@ body {
   height: 46px;
   margin: 30px;
   text-align: center;
-}
-
-nav {
-  width: 100%;
-  height: 10vh;
-  background-color: #5474FD;
-  position: fixed;
-  bottom: 0;
-  z-index: 1;
-}
-nav li {
-  float: right;
-  margin: 30px;
-}
-nav a {
-  text-decoration: none;
-  text-transform: uppercase;
-  color: #FFFFFF;
-  font-family: "Aleo", serif;
-  text-align: center;
-}
-nav .logo {
-  float: left;
-  text-align: center;
-  font-family: Josefin Sans;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 26px;
-  margin: 30px;
 }
 
 .choose {
@@ -253,8 +253,22 @@ nav .logo {
   letter-spacing: 1.5px;
   color: #E8E8E8;
 }
+.spain .spain_info h2 {
+  font-size: 20px;
+  line-height: 26px;
+  text-transform: uppercase;
+}
 .spain .spain_info p {
   color: #E8E8E8;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.what {
+  min-height: 731px;
+  background-image: url(../Images/whatBG.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .button {
