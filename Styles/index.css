@@ -79,7 +79,6 @@ body {
 .landing-page form button {
   background: #5474FD;
   max-width: 153px;
-  border: 2px solid #FFFFFF;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   color: #FFFFFF;
@@ -88,6 +87,7 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 26px;
+  border: none;
 }
 .landing-page .scroll {
   max-width: 108px;
@@ -101,8 +101,8 @@ nav {
   width: 100%;
   height: 10vh;
   background-color: #5474FD;
-  position: sticky;
-  top: 0;
+  position: fixed;
+  bottom: 0;
 }
 nav li {
   float: right;
@@ -133,6 +133,20 @@ nav .logo {
 .choose .choose1 {
   min-height: 685px;
   background-image: url(../Images/chooseBG.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 .choose .choose1 .choose-text {
   display: -webkit-box;
@@ -160,6 +174,35 @@ nav .logo {
   line-height: 26px;
   letter-spacing: 1.6px;
   color: #E8E8E8;
+  margin: 15px;
+}
+.choose .choose1 .choose-text button {
+  background: #5474FD;
+  max-width: 228px;
+  min-height: 63px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #FFFFFF;
+  font-family: "Aleo", serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 1.2px;
+  margin: 15px;
+  border: none;
+}
+.choose .choose1 .choose-images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.choose .choose1 .choose-images img {
+  margin: 10px;
 }
 .choose .choose2 {
   min-height: 340px;
