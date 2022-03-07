@@ -1,0 +1,12 @@
+html {
+  background-color: #f3f3f3;
+}
+
+body {
+  max-width: 1800px;
+  width: 100%;
+}
+
+.container {
+  min-height: 100vh;
+}
