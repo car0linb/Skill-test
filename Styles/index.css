@@ -134,6 +134,33 @@ nav .logo {
   min-height: 685px;
   background-image: url(../Images/chooseBG.png);
 }
+.choose .choose1 .choose-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: space-evenly;
+      -ms-flex-align: space-evenly;
+          align-items: space-evenly;
+  max-width: 560px;
+  width: 100%;
+  min-height: 270px;
+}
+.choose .choose1 .choose-text h2 {
+  font-family: "Aleo", serif;
+  font-size: 36px;
+  line-height: 26px;
+  margin: 15px;
+}
+.choose .choose1 .choose-text p {
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 1.6px;
+  color: #E8E8E8;
+}
 .choose .choose2 {
   min-height: 340px;
   background-color: #333333;

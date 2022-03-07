@@ -143,6 +143,31 @@ body{
         .choose1{
             min-height: 685px;
             background-image: url(../Images/chooseBG.png);
+        
+            .choose-text{
+                display: flex;
+                flex-direction: column;
+                align-items: space-evenly;
+                max-width: 560px;
+                width: 100%;
+                min-height: 270px;
+
+                h2{
+                    font-family: $secondary-font;
+                    font-size: 36px;
+                    line-height: 26px;
+                    margin:15px;
+                }
+
+                p{
+                    font-size: 16px;
+                    line-height: 26px;
+                    letter-spacing: 1.6px;
+                    color: #E8E8E8;
+                }
+            }
+        
+        
         }
 
         .choose2{
