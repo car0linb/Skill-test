@@ -101,10 +101,12 @@ nav {
   width: 100%;
   height: 10vh;
   background-color: #5474FD;
+  position: sticky;
+  top: 0;
 }
 nav li {
   float: right;
-  margin: 15px;
+  margin: 30px;
 }
 nav a {
   text-decoration: none;
@@ -116,4 +118,23 @@ nav a {
 nav .logo {
   float: left;
   text-align: center;
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 26px;
+  margin: 30px;
+}
+
+.choose {
+  color: #FFFFFF;
+  font-family: "Josefin Sans", sans-serif;
+}
+.choose .choose1 {
+  min-height: 685px;
+  background-image: url(../Images/chooseBG.png);
+}
+.choose .choose2 {
+  min-height: 340px;
+  background-color: #333333;
 }
