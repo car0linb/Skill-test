@@ -77,6 +77,8 @@ header nav .logo {
   letter-spacing: 4.8px;
   text-transform: uppercase;
   margin: 15px;
+  padding: 15px;
+  text-align: center;
 }
 .landing-page h2 {
   letter-spacing: 6.82px;
@@ -108,6 +110,15 @@ header nav .logo {
   border: none;
   height: 63px;
   max-width: 503px;
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: 2.8px;
+  font-size: 14px;
+  line-height: 26px;
+  font-family: "Josefin Sans", sans-serif;
+}
+.landing-page form input:hover {
+  border: solid 2px hotpink;
 }
 .landing-page form button {
   background: #5474FD;
@@ -122,12 +133,19 @@ header nav .logo {
   line-height: 26px;
   border: none;
 }
+.landing-page form button:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  background-color: hotpink;
+}
 .landing-page .scroll {
   max-width: 108px;
   width: 100%;
   height: 46px;
   margin: 30px;
   text-align: center;
+  font-size: 14px;
+  line-height: 26px;
 }
 
 .choose {
@@ -172,6 +190,8 @@ header nav .logo {
   font-size: 36px;
   line-height: 26px;
   margin: 15px;
+  color: #E8E8E8;
+  text-decoration: none;
 }
 .choose .choose1 .choose-text p {
   font-size: 16px;
@@ -195,6 +215,9 @@ header nav .logo {
   letter-spacing: 1.2px;
   margin: 15px;
   border: none;
+}
+.choose .choose1 .choose-text button:hover {
+  background-color: hotpink;
 }
 .choose .choose1 .choose-images {
   display: -webkit-box;
@@ -224,6 +247,15 @@ header nav .logo {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+}
+.choose .choose2 a {
+  font-family: "Aleo", serif;
+  margin: 15px;
+  color: #E8E8E8;
+  text-decoration: none;
+}
+.choose .choose2 a:hover {
+  color: hotpink;
 }
 .choose .choose2 img {
   padding-bottom: 10px;

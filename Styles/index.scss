@@ -87,6 +87,8 @@ header{
         letter-spacing: 4.8px;
         text-transform: uppercase;
         margin: 15px;
+        padding: 15px;
+        text-align: center;
     }
 
     h2{
@@ -115,7 +117,19 @@ header{
             border:none;
             height: 63px;
             max-width: 503px;
+            font-size: 22px;
+            text-align: center;
+            letter-spacing: 2.8px;
+            font-size: 14px;
+            line-height: 26px;
+            font-family: $main-font;
           }
+
+        input:hover{
+            border: solid 2px hotpink;
+        }
+
+        
 
           button{
             background: #5474FD;
@@ -129,6 +143,11 @@ header{
             line-height: 26px;
             border: none;
           }
+
+          button:hover{
+              transform: scale(1.1);
+              background-color: hotpink;
+          }
       }
 
       .scroll{
@@ -137,6 +156,8 @@ header{
           height: 46px;
           margin: 30px;
           text-align: center;
+          font-size: 14px;
+        line-height: 26px;
       }
 }
 
@@ -168,6 +189,8 @@ header{
                     font-size: 36px;
                     line-height: 26px;
                     margin:15px;
+                    color: #E8E8E8;
+                    text-decoration: none;
                 }
 
                 p{
@@ -194,6 +217,10 @@ header{
                     border: none;
                 }
 
+                button:hover{
+                    background-color: hotpink;
+                }
+
             }
 
             .choose-images{
@@ -218,6 +245,17 @@ header{
         display: flex;
         align-items: center;
         justify-content: space-evenly;
+
+        a{
+            font-family: $secondary-font;
+            margin:15px;
+            color: #E8E8E8;
+            text-decoration: none;
+        }
+
+        a:hover{
+            color: hotpink;
+        }
 
         img{
             padding-bottom: 10px;
