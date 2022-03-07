@@ -1,0 +1,452 @@
+$main-font: 'Josefin Sans', sans-serif;
+$secondary-font: 'Aleo', serif;
+$main-font-color: #FFFFFF;
+$accent-color: #5474FD;
+
+
+
+
+html{
+    background-color: #333333;
+}
+
+body{
+    max-width: 1800px;
+    width: 100%;
+    background-color: white;
+    margin: 0 auto;
+    color: $main-font-color;
+    font-family: $main-font;
+}
+
+header{
+
+    nav{
+        width: 100%;
+        height: 10vh;
+        background-color: $accent-color;
+        position: fixed;
+        bottom: 0;
+        z-index: 1;
+
+        li{ 
+            float: right;
+            margin: 30px;
+        }
+
+        a{
+            text-decoration: none;
+            text-transform: uppercase;
+            color: $main-font-color;
+            font-family: $secondary-font;
+            text-align: center;
+        }
+
+        .logo{
+            float: left;
+            text-align: center;
+            font-family: Josefin Sans;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 26px;
+            margin: 30px;
+        }
+    }
+
+}
+
+.container{
+    min-height: 100vh;
+}
+
+.landing-page{
+    background-image: url(../Images/landing-pageBG.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: $main-font-color;
+    font-family: $main-font;
+
+
+    // positioning
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+    h1{ 
+        max-width: 342px;
+        width: 100%;
+        height: 26px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 26px;
+        letter-spacing: 4.8px;
+        text-transform: uppercase;
+        margin: 15px;
+        padding: 15px;
+        text-align: center;
+    }
+
+    h2{
+        letter-spacing: 6.82px;
+        font-size: 22px;
+        line-height: 118%;
+        text-align: center;
+        font-weight: 400;
+    }
+
+    form {
+        display:flex;
+        flex-direction:row;
+        // border:1px solid grey;
+        padding:2px;
+        background-color: white;
+        max-width: 700px;
+        width: 100%;
+        // height: fit-content;
+        height: 63px;
+        margin: 30px;
+        text-align: center;
+
+        input {
+            flex-grow:2;
+            border:none;
+            height: 63px;
+            max-width: 503px;
+            font-size: 22px;
+            text-align: center;
+            letter-spacing: 2.8px;
+            font-size: 14px;
+            line-height: 26px;
+            font-family: $main-font;
+          }
+
+        input:hover{
+            border: solid 2px hotpink;
+        }
+
+        
+
+          button{
+            background: #5474FD;
+            max-width: 153px;
+            box-sizing: border-box;
+            color: $main-font-color;
+            font-family: $secondary-font;
+            text-transform: uppercase;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 26px;
+            border: none;
+          }
+
+          button:hover{
+              transform: scale(1.1);
+              background-color: hotpink;
+          }
+      }
+
+      .scroll{
+          max-width: 108px; 
+          width: 100%;
+          height: 46px;
+          margin: 30px;
+          text-align: center;
+          font-size: 14px;
+        line-height: 26px;
+      }
+}
+
+
+.choose{
+    color: $main-font-color;
+    font-family: $main-font;
+
+        .choose1{
+            min-height: 685px;
+            background-image: url(../Images/chooseBG.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            flex-flow: row wrap;
+            align-items: center;
+            justify-content: space-around;
+        
+            .choose-text{
+                display: flex;
+                flex-direction: column;
+                align-items: space-evenly;
+                max-width: 560px;
+                width: 100%;
+                min-height: 270px;
+
+                h2{
+                    font-family: $secondary-font;
+                    font-size: 36px;
+                    line-height: 26px;
+                    margin:15px;
+                    color: #E8E8E8;
+                    text-decoration: none;
+                }
+
+                p{
+                    font-size: 16px;
+                    line-height: 26px;
+                    letter-spacing: 1.6px;
+                    color: #E8E8E8;
+                    margin: 15px;
+                }
+
+                button{
+                    background: #5474FD;
+                    max-width: 228px;
+                    min-height: 63px;
+                    box-sizing: border-box;
+                    color: $main-font-color;
+                    font-family: $secondary-font;
+                    text-transform: uppercase;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 26px;
+                    letter-spacing: 1.2px;
+                    margin: 15px;
+                    border: none;
+                }
+
+                button:hover{
+                    background-color: hotpink;
+                }
+
+            }
+
+            .choose-images{
+                display: flex;
+                flex-direction: column;
+
+                img{
+                    margin: 10px;
+                }
+            }
+        
+        
+        }
+
+    .choose2{
+        min-height: 340px;
+        background-color: #333333;
+        font-size: 36px;
+        line-height: 26px;
+        color: #E8E8E8;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+        a{
+            font-family: $secondary-font;
+            margin:15px;
+            color: #E8E8E8;
+            text-decoration: none;
+        }
+
+        a:hover{
+            color: hotpink;
+        }
+
+        img{
+            padding-bottom: 10px;
+            margin: 15px;
+        }
+    }
+
+}
+
+.spain{
+
+    .spain-content{
+        width: 50%;
+        min-height: 700px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+    }
+
+    .spain_1{
+        min-height: 700px;
+        background-image: url(../Images/spain-condos.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .spain_2{
+        min-height: 700px;
+        background-image: url(../Images/spain-mountain.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .spain_info{
+        max-width: 550px;
+        width: 100%;
+        min-height: 374px;
+        background-color: #232323;
+        opacity: 0.9;
+        box-sizing: border-box;
+        color:$main-font-color;
+        font-family: $main-font;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        padding: 30px;
+        // margin: 30px;
+
+        h3{
+            font-size: 20px;
+            line-height: 26px;
+            letter-spacing: 1.5px;
+            color: #E8E8E8;
+        }
+
+        h2{
+            font-size: 20px;
+            line-height: 26px;
+            text-transform: uppercase;
+        }
+
+        p{
+            color: #E8E8E8;
+            font-size: 16px;
+            line-height: 26px;
+        }
+
+    }
+
+   
+}
+
+.what{
+    // min-height: 731px;
+    background-image: url(../Images/whatBG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: $main-font;
+    color: #fefefe;
+    
+    &_heading{
+        font-family: $secondary-font;
+        font-size: 36px;
+        line-height: 26px;
+        text-align: center;
+        margin: 30px;
+        padding: 15px;
+
+    }
+
+    &_content{
+        max-width: 1100px;
+        width: 100%;
+        background-color: #333333;
+        display: flex;
+        flex-direction: row;
+        box-sizing: border-box;
+
+
+        h4{
+            font-size: 20px;
+            line-height: 26px;
+            text-transform: uppercase;
+            align-self: flex-start;
+        }
+
+        i{
+            color:#5474FD;
+            font-size: 36px;
+            line-height: 26px;
+        }
+
+        p{
+            color: #E8E8E8;
+            font-size: 16px;
+            line-height: 26px;
+            
+        }
+
+    }
+
+    &_info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding:25px;
+        margin: 20px;
+    }
+
+}
+
+footer{
+    min-height: 271px;
+    background-color: #232323;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h2{
+        font-size: 24px;
+        line-height: 26px;
+        letter-spacing: 3.36px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    h3{
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 1.6px;
+    }
+
+    a{
+        text-decoration: none;
+        color: $main-font-color;
+    }
+}
+
+.button{
+    
+        background: #5474FD;
+        max-width: 228px;
+        width: 100%;
+        min-height: 63px;
+        box-sizing: border-box;
+        color: $main-font-color;
+        font-family: $secondary-font;
+        text-transform: uppercase;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 1.2px;
+        margin: 15px;
+        border: none;
+    
+    }
+
+    a:hover{
+        color: hotpink;
+    }
+
+    .button:hover{
+        background-color: hotpink;
+        transform: scale(1.1);
+    }
+
