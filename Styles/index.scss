@@ -108,8 +108,8 @@ body{
         width: 100%;
         height: 10vh;
         background-color: $accent-color;
-        position: fixed;
-        bottom: 0;
+        position: sticky;
+        top: 0;
 
         li{ 
             float: right;
@@ -136,9 +136,9 @@ body{
         }
     }
 
-    .choose{
-        color: $main-font-color;
-        font-family: $main-font;
+.choose{
+    color: $main-font-color;
+    font-family: $main-font;
 
         .choose1{
             min-height: 685px;
@@ -203,9 +203,63 @@ body{
         
         }
 
-        .choose2{
-            min-height: 340px;
-            background-color: #333333;
-        }
+    .choose2{
+        min-height: 340px;
+        background-color: #333333;
+    }
+
+}
+
+.spain{
+
+    .spain_1{
+        min-height: 700px;
+        background-image: url(../Images/spain-condos.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        
+    }
+
+    .spain_2{
+        min-height: 700px;
+        background-image: url(../Images/spain-mountain.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .spain_info{
+        max-width: 550px;
+        width: 100%;
+        min-height: 374px;
+        background-color: #232323;
+        opacity: 0.9;
+        box-sizing: border-box;
+        color:$main-font-color;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
 
     }
+}
+
+.button{
+    
+        background: #5474FD;
+        max-width: 228px;
+        min-height: 63px;
+        box-sizing: border-box;
+        color: $main-font-color;
+        font-family: $secondary-font;
+        text-transform: uppercase;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 1.2px;
+        margin: 15px;
+        border: none;
+    
+    }
+
+
