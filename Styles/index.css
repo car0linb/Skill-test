@@ -262,6 +262,23 @@ header nav .logo {
   margin: 15px;
 }
 
+.spain .spain-content {
+  width: 50%;
+  min-height: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
 .spain .spain_1 {
   min-height: 700px;
   background-image: url(../Images/spain-condos.png);
@@ -415,11 +432,16 @@ footer h2 {
   line-height: 26px;
   letter-spacing: 3.36px;
   text-transform: uppercase;
+  text-align: center;
 }
 footer h3 {
   font-size: 16px;
   line-height: 26px;
   letter-spacing: 1.6px;
+}
+footer a {
+  text-decoration: none;
+  color: #FFFFFF;
 }
 
 .button {
