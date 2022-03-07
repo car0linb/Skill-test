@@ -290,6 +290,23 @@ header nav .logo {
   background-image: url(../Images/spain-mountain.png);
   background-repeat: no-repeat;
   background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.spain .spain-content2 {
+  width: 50%;
+  min-height: 700px;
+}
+.spain .spain-content3 {
+  width: 50%;
+  min-height: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .spain .spain_info {
   max-width: 550px;

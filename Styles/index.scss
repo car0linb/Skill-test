@@ -288,6 +288,19 @@ header{
         background-image: url(../Images/spain-mountain.png);
         background-repeat: no-repeat;
         background-size: cover;
+        display: flex;
+    }
+
+    .spain-content2{
+        width: 50%;
+        min-height: 700px;
+    }
+
+    .spain-content3{
+        width: 50%;
+        min-height: 700px;
+        display: flex;
+        align-items: center;
     }
 
     .spain_info{
