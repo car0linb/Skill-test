@@ -7,7 +7,7 @@ $accent-color: #5474FD;
 
 
 html{
-    background-color: #f3f3f3;
+    background-color: #333333;
 }
 
 body{
@@ -15,6 +15,8 @@ body{
     width: 100%;
     background-color: white;
     margin: 0 auto;
+    color: $main-font-color;
+    font-family: $main-font;
 }
 
 header{
@@ -112,8 +114,6 @@ header{
             flex-grow:2;
             border:none;
             height: 63px;
-
-            
           }
 
           button{
@@ -127,8 +127,6 @@ header{
             font-size: 14px;
             line-height: 26px;
             border: none;
-            
-
           }
       }
 
@@ -273,10 +271,81 @@ header{
 }
 
 .what{
-    min-height: 731px;
+    // min-height: 731px;
     background-image: url(../Images/whatBG.png);
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: $main-font;
+    color: #fefefe;
+    
+    &_heading{
+        font-family: $secondary-font;
+        font-size: 36px;
+        line-height: 26px;
+        text-align: center;
+        margin: 30px;
+        padding: 15px;
+
+    }
+
+    &_content{
+        max-width: 1100px;
+        width: 100%;
+        background-color: #333333;
+        display: flex;
+        flex-direction: row;
+        box-sizing: border-box;
+
+
+        h4{
+            font-size: 20px;
+            line-height: 26px;
+            text-transform: uppercase;
+            align-self: flex-start;
+        }
+
+        i{
+            color:#5474FD;
+            font-size: 36px;
+            line-height: 26px;
+        }
+
+        p{
+            color: #E8E8E8;
+            font-size: 16px;
+            line-height: 26px;
+            
+        }
+
+    }
+
+    &_info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding:25px;
+        margin: 20px;
+    }
+
+}
+
+footer{
+    min-height: 271px;
+    background-color: #232323;
+
+    h2{
+        font-size: 24px;
+        line-height: 26px;
+        letter-spacing: 3.36px;
+        text-transform: uppercase;
+    }
+
+
 }
 
 .button{
